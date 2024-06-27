@@ -1,0 +1,42 @@
+#alltodo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    width: 80%;
+    /* margin: 1rem 1rem; */
+}
+#addtodo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    max-width: 80%;
+    /* flex-wrap: wrap; */
+    margin: 2rem auto;
+    background-color: white;
+    padding: 1rem .4rem;
+    border-radius: 10px;
+}
+#addtodo form{
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#addtodo form input{
+    /* display: flex; */
+    /* align-items: center; */
+    /* max-width: 80%; */
+    outline: none;
+    border: none;
+    padding: 0rem .4rem;
+    
+    font-size: 1.4rem;
+}
+#addbtn{
+    background-color: purple;
+    color:white;
+    padding: .4rem 2.5rem;
+}

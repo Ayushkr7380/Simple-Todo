@@ -1,0 +1,50 @@
+
+#todolist{
+    background-color: rgb(56, 7, 56);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    /* flex-wrap: wrap; */
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1rem;
+    padding: 2rem 0;
+}
+#alldata{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* background-color:rgb(76, 95, 95); */
+    /* margin-left: -2rem; */
+    width: 80%;
+    padding: 2px;
+    /* word-wrap: break-word; */
+}
+#data{ 
+    /* overflow-wrap: break-word; */
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    word-break: break-all;
+    
+}
+#status{
+    color: white;
+}
+#buttons{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+#remove{
+    padding: .3rem 3.5rem;
+    background-color: rgb(4, 4, 118);
+    color:white;
+}
+#update{
+    margin-bottom: .5rem;
+    background-color: rgb(4, 4, 118);
+    color:white;
+}
